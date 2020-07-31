@@ -12,6 +12,20 @@ function CadastroCategoria() {
   }
   const [values, setValues] = useState(valoresIniciais);
 
+  function setValue(chave, valor) {
+    setValues({
+      ...values
+      [chave]: valor
+    })
+  }
+
+  function handleChange(infosDoEvento) {
+    setValue(
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value
+    );
+  }
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {values.nome}</h1>
@@ -29,9 +43,8 @@ function CadastroCategoria() {
             <input
               type="text"
               value={values.nome}
-              onChange={function funcaoHandler(infosDoEvento) {
-                // setNomeDaCategoria(infosDoEvento.target.value)
-              }}
+              name="nome"
+              onChange={handleChange}
             />
           </label>
 
@@ -40,9 +53,8 @@ function CadastroCategoria() {
             <textarea
               type="text"
               value={values.descrição}
-              onChange={function funcaoHandler(infosDoEvento) {
-                // setNomeDaCategoria(infosDoEvento.target.value)
-              }}
+              name="descrição"
+              onChange={handleChange}
             />
           </label>
 
@@ -51,9 +63,8 @@ function CadastroCategoria() {
             <input
               type="color"
               value={values.cor}
-              onChange={function funcaoHandler(infosDoEvento) {
-                // setNomeDaCategoria(infosDoEvento.target.value)
-              }}
+              name="cor"
+              onChange={handleChange}
             />
           </label>
         </div>
@@ -67,7 +78,7 @@ function CadastroCategoria() {
         {categorias.map((categoria, indice) => {
           return (
             <li key={`${categoria}${indice}`}>
-              {categoria}
+              {categoria.nome}
             </li>
           )
         })}
