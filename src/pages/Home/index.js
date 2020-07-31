@@ -7,8 +7,8 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
-      < Menu />
+    <div style={{ background: '#141414' }}>
+      <Menu />
 
       <BannerMain
         videoTitle="O Melhor da Culinária para Você Aprender!"
