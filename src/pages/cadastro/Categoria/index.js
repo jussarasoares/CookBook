@@ -5,7 +5,7 @@ import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
@@ -13,10 +13,9 @@ function CadastroCategoria() {
   const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
     setValues({
       ...values,
-      [chave]: valor, // nome: 'valor'
+      [chave]: valor,
     });
   }
 
@@ -26,8 +25,6 @@ function CadastroCategoria() {
       infosDoEvento.target.value,
     );
   }
-
-  // ============
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
@@ -48,7 +45,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -66,29 +63,18 @@ function CadastroCategoria() {
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição:"
-          type="????"
+          type="text"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={values.descricao}
-              name="descricao"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
         <FormField
           label="Cor"
@@ -97,17 +83,6 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={values.cor}
-              name="cor"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
         <button type="submit">
           Cadastrar
