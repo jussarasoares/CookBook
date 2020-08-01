@@ -8,6 +8,24 @@
         "text": "MUITO FÁCIL / BOLOS VEGANOS DE CHOCOLATE / experimente e se apaixone",
         "url": "https://www.youtube.com/watch?v=CiSbZcbsPQY"
       }
+    },
+    {
+      "id": 2,
+      "titulo": "Receitas Doces",
+      "cor": "#FF7F50",
+      "link_extra": {
+        "text": "SOBREMESA DE MORANGO COM CHANTILLY (Strawberry Shortcake)",
+        "url": "https://www.youtube.com/watch?v=hSbTVdJt97U"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Receitas Salgadas",
+      "cor": "#EEAD0E",
+      "link_extra": {
+        "text": "LENTILHA COM PARMA E BOTTARGA | ERICK JACQUIN",
+        "url": "https://www.youtube.com/watch?v=saqOu-xFF6k"
+      }
     }
   ],
   "videos": [
@@ -16,6 +34,18 @@
       "categoriaId": 1,
       "titulo": "MUITO FÁCIL / BOLOS VEGANOS DE CHOCOLATE / experimente e se apaixone",
       "url": "https://www.youtube.com/watch?v=CiSbZcbsPQY"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O MELHOR STROGONOFF VEGANO DA VIDA!",
+      "url": "https://www.youtube.com/watch?v=yVhTVJOUIec"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "TORTA SALGADA VEGANA DE LIQUIDIFICADOR (a mais fácil de fazer)",
+      "url": "https://www.youtube.com/watch?v=VvpdFEqdaZs"
     }
   ],
   "videos-por-categorias": [
@@ -62,6 +92,10 @@
           "url": "https://www.youtube.com/watch?v=hSbTVdJt97U"
         },
         {
+          "titulo": "fácil e saudável / mousse vegano de chocolate e maracujá / sobremesa vegana",
+          "url": "https://www.youtube.com/watch?v=--kHYsTqxMw"
+        },
+        {
           "titulo": "MACARON DE CHOCOLATE TRUFADO | 126 #ICKFD Dani Noce",
           "url": "https://www.youtube.com/watch?v=7bQdiy7zT3g"
         },
@@ -98,6 +132,14 @@
         {
           "titulo": "MACARRÃO À CARBONARA | Mohamad Hindi",
           "url": "https://www.youtube.com/watch?v=qZnSb3KTlAk"
+        },
+        {
+          "titulo": "COMIDA MEXICANA SUPER FÁCIL (Guacamole e Chilli Beans Vegetariano)",
+          "url": "https://www.youtube.com/watch?v=IljrmWxeBPk"
+        },
+        {
+          "titulo": "Como fazer Bolinho de Arroz",
+          "url": "https://www.youtube.com/watch?v=UzkoE8g0jbo"
         }
       ]
     },
@@ -120,6 +162,14 @@
         {
           "titulo": "Café Gelado e Cremoso",
           "url": "https://www.youtube.com/watch?v=lmeKewjDLJ4"
+        },
+        {
+          "titulo": "Aprenda a receita do Melhor Chocolate Quente do Mundo!",
+          "url": "https://www.youtube.com/watch?v=TBShiB-bs0c"
+        },
+        {
+          "titulo": "Gin com Frutas Vermelhas & Porto de Verão | Especial de Verão | 2018",
+          "url": "https://www.youtube.com/watch?v=Wz8GK93BE80"
         }
       ]
     },
@@ -146,6 +196,10 @@
         {
           "titulo": "PÃES COLORIDOS (beterraba, espinafre e cenoura) | Técnicas do Gastronomismo",
           "url": "https://www.youtube.com/watch?v=B6XOOfkjYZw"
+        },
+        {
+          "titulo": "Pão Multigrãos com Fermentação Natural | Padeiro de Apartamento",
+          "url": "https://www.youtube.com/watch?v=_00yJ8L_cb0"
         }
       ]
     },
@@ -168,6 +222,14 @@
         {
           "titulo": "QUER COZINHAR MELHOR? | Dicas Práticas | MARINA MORAIS",
           "url": "https://www.youtube.com/watch?v=xArkv0jPE-U"
+        },
+        {
+          "titulo": "Tudo Para Você Montar Uma Mesa Formal",
+          "url": "https://www.youtube.com/watch?v=RHzaL1FkCSE"
+        },
+        {
+          "titulo": "4 MESAS EM 1: DICAS CORRETAS DE MESA POSTA",
+          "url": "https://www.youtube.com/watch?v=LlxK8J2Y4R4"
         }
       ]
     }

@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import Slider from 'react-slick';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-// import { SliderItem } from '../../../components/Carousel/components/Slider';
-// import VideoCard from '../../../components/Carousel/components/VideoCard';
 
 function CadastroVideo() {
   const valoresIniciais = {
@@ -76,7 +73,6 @@ function CadastroVideo() {
         setValues(valoresIniciais);
       }}
       >
-
         <FormField
           label="Título do Vídeo"
           type="text"
@@ -113,18 +109,6 @@ function CadastroVideo() {
           </li>
         ))}
       </ul>
-
-      {/* <Slider>
-        {videos.map((video) => (
-          <SliderItem key={video.titulo}>
-            <VideoCard
-              videoTitle={video.titulo}
-              videoURL={video.url}
-              categoryColor={video.color}
-            />
-          </SliderItem>
-        ))}
-      </Slider> */}
 
       <Link to="/cadastro/categoria">
         Cadastrar Categoria
