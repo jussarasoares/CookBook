@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "titulo": "Comida Vegana",
+    "cor": "#2E8B57",
+    "link_extra": {
+      "text": "MUITO FÁCIL / BOLOS VEGANOS DE CHOCOLATE / experimente e se apaixone",
+      "url": "https://www.youtube.com/watch?v=CiSbZcbsPQY"
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Receitas Doces",
+    "cor": "#FF7F50",
+    "link_extra": {
+      "text": "SOBREMESA DE MORANGO COM CHANTILLY (Strawberry Shortcake)",
+      "url": "https://www.youtube.com/watch?v=hSbTVdJt97U"
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Receitas Salgadas",
+    "cor": "#EEAD0E",
+    "link_extra": {
+      "text": "LENTILHA COM PARMA E BOTTARGA | ERICK JACQUIN",
+      "url": "https://www.youtube.com/watch?v=saqOu-xFF6k"
+    }
+  }
+]
